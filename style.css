@@ -1,0 +1,50 @@
+body {
+    font-family: 'comic sans ms'; /* Mengatur font untuk seluruh body */
+    display: block; /* Menampilkan body sebagai blok */
+    align-items: center; /* Pusatkan konten secara vertikal */
+    width: 500px; /* Lebar body */
+    margin-left: auto; /*  body secara horizontal dengan margin otomatis */
+    margin-right: auto; /*  body secara horizontal dengan margin otomatis */
+    background-color:cornsilk;
+}
+
+h1 {
+    font-size: 35px; /* Ukuran font untuk heading 1 */
+    display: flex; /* Menampilkan heading 1 */
+    justify-content: center; /* heading secara horizontal */
+    align-items: center; /* heading secara vertikal */
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid palevioletred;
+    width: 600px;
+    height: 400px;
+    margin-left: auto; /*  tabel secara horizontal dengan margin otomatis */
+    margin-right: auto; /*  tabel secara horizontal dengan margin otomatis */
+    margin-top: 20px; /* Atur margin atas agar sejajar dengan judul */
+    margin-bottom: 20px; /* Atur margin bawah agar sejajar dengan judul */
+}
+
+
+tr {
+    border: 2px solid palevioletred; /* Mengatur border baris */
+    justify-content: center; /*konten baris secara horizontal */
+}
+
+th {
+    font-size: 20px; /* Ukuran font untuk heading kolom */
+    border: 2px solid palevioletred; /* Mengatur border heading kolom */
+    background-color:antiquewhite;
+}
+
+td {
+    border: 2px solid palevioletred; /* Mengatur border sel data */
+    justify-content: center; /*  konten sel secara horizontal */
+    text-align: center; /*  teks dalam sel secara horizontal */
+}
+
+img {
+    max-width: 170px; /* Lebar maksimum gambar */
+    max-height: 170px; /* Tinggi maksimum gambar */
+}
